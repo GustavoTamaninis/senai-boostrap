@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Aprendendo Bootstrap 4.6 no UniSENAI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-sm bg-warning mt-2">
+        <h2 class="h2 text-center mb-5">Container Pequeno</h3>
+        <p class="text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit porro itaque cupiditate corporis quaerat ipsam, doloribus beatae possimus consequuntur ad harum consectetur eum nulla incidunt! Esse, doloribus modi? Ab, maiores.</p>
+    </div>
+
+    <div class="container-md bg-warning mt-2">
+        <h2 class="h2 text-center mb-5">Container Médio</h3>
+        <p class="text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit porro itaque cupiditate corporis quaerat ipsam, doloribus beatae possimus consequuntur ad harum consectetur eum nulla incidunt! Esse, doloribus modi? Ab, maiores.</p>
+    </div>
+
+    <div class="container-lg bg-warning mt-2">
+        <h2 class="h2 text-center mb-5">Container Grande</h3>
+        <p class="text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit porro itaque cupiditate corporis quaerat ipsam, doloribus beatae possimus consequuntur ad harum consectetur eum nulla incidunt! Esse, doloribus modi? Ab, maiores.</p>
+    </div>
+
+    <div class="container-xl bg-warning mt-2">
+        <h2 class="h2 text-center mb-5">Container Extra Grande</h3>
+        <p class="text-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit porro itaque cupiditate corporis quaerat ipsam, doloribus beatae possimus consequuntur ad harum consectetur eum nulla incidunt! Esse, doloribus modi? Ab, maiores.</p>
+    </div>
+
+    <div class="container-xl bg-light mt-2">
+        <h2 class="h2 text-center mb-3">Tabelas</h3>
+        <table class="table table-striped bg-dark text-light mb-3">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>Gustavo</th>
+                    <th>gustavo@gmail.com</th>
+                    <th>(47) 90000-1111</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>João</th>
+                    <th>joao@gmail.com</th>
+                    <th>(47) 91111-2222</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>Diego</th>
+                    <th>diego@gmail.com</th>
+                    <th>(47) 92222-3333</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="container mt-3 bg-dark text-light"> <!-- Existe a classe "grid_system"?-->
+        <h2 class="h2 text-center mb-3">Layout Grid</h3>
+        <div class="row">
+            <div class="col-sm-1 bg-secondary border border-dark">col-1</div>
+            <div class="col-sm-1 bg-secondary border border-dark">col-1</div>
+            <div class="col-sm-2 bg-secondary border border-dark">col-2</div>
+            <div class="col-sm-2 bg-secondary border border-dark">col-2</div>
+            <div class="col-sm-3 bg-secondary border border-dark">col-3</div>
+            <div class="col-sm-3 bg-secondary border border-dark">col-3</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 bg-secondary border border-dark">col-4</div>
+            <div class="col-sm-5 bg-secondary border border-dark">col-5</div>
+            <div class="col-sm-3 bg-secondary border border-dark">col-3</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 bg-secondary border border-dark">col-6</div>
+            <div class="col-sm-6 bg-secondary border border-dark">col-6</div>
+        </div>
+    </div>
+
+    <div class = "grid_system">
+        <div class = "row">
+           <div class = "col-sm-4">.col-sm-4</div>
+           <div class = "col-sm-4">.col-sm-4</div>
+           <div class = "col-sm-4">.col-sm-4</div>
+        </div>
+        
+        <div class = "row">
+           <div class = "col-sm-3">.col-sm-3</div>
+           <div class = "col-sm-4">.col-sm-4</div>
+           <div class = "col-sm-5">.col-sm-5</div>
+        </div>
+        
+        <div class = "row">
+           <div class = "col-sm-2">.col-sm-2</div>
+           <div class = "col-sm-8">.col-sm-8</div>
+           <div class = "col-sm-2">.col-sm-2</div>
+        </div>
+       
+        <div class = "row">
+           <div class = "col-sm-2">.col-sm-2</div>
+           <div class = "col-sm-3">.col-sm-3</div>
+           <div class = "col-sm-7">.col-sm-7</div>
+        </div>
+     </div>
+     <div class="container bg-light my-3 pb-4 border rounded">
+        <div class="row">
+            <div class="col-6 my-3">
+                <h3 class="h3">Paginação</h3>
+                <ul class="pagination">
+                    <li class="page-item"><a href="#" class="page-link text-muted">Anterior</a></li>
+                    <li class="page-item"><a href="#" class="page-link text-muted">1</a></li>
+                    <li class="page-item"><a href="index2.html" class="page-link">2</a></li>
+                    <li class="page-item"><a href="index3.html" class="page-link">3</a></li>
+                    <li class="page-item"><a href="index2.html" class="page-link">Próxima</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JQuery e Bootstrap (incluindo Popper)-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
