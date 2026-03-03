@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="container bg-dark text-light p-3 text-center">
+        <h2 class="h2">Navbar</h2>
+        <p>Menu horizontal básico:</p>
+        <ul class="nav bg-secondary">
+            <li class="nav-item"><a href="#" class="nav-link text-light">link 1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">link 2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">link 3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">link 4</a></li>
+        </ul>
+    </div>
     <div class="container bg-light mt-3 pb-4 border border rounded">
         <div class="row text-center">
             <div class="col-12 my-3">
@@ -21,7 +31,7 @@
             </div>
             <div class="col-5 offset-2 my-3">
                 <h3 class="h3">Alertas</h3>
-                <img src="coruja.webp" alt="coruja" class="img-fluid" width="180">
+                <img src="coruja.webp" alt="coruja" class="img-fluid rounded" width="180">
                 <p class="alert-danger p-2 mt-4 rounded">Não alimente as corujas!</p>
             </div>
         </div>
@@ -44,7 +54,6 @@
             </div>
         </div>
     </div>
-
     <div class="container bg-light my-3 pb-4 border rounded">
         <div class="row text-center">
             <div class="col-6 my-3">
@@ -59,6 +68,7 @@
                 <div class="spinner-border text-secondary"></div>
                 <div class="spinner-border text-dark"></div>
                 <div class="spinner-border text-light"></div>
+                <div class="spinner-grow" role="status"></div>
             </div>
             <div class="col-6 my-3">
                 <h3 class="h3">Grupo de Listas Básicas</h3>
@@ -67,6 +77,87 @@
                     <li class="list-group-item">Item 2</li>
                     <li class="list-group-item">Item 3</li>
                 </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-light my-3 pb-4 border rounded">
+        <div class="row text-center">
+            <div class="col-md-4 my-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="h3">Cards</h3>
+                    </div>
+                    <div class="card-body">
+                        <br>
+                        <img src="coruja.webp" alt="coruja" class="card-img-top rounded-circle" width="200"><br><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempore ipsa reiciendis, eveniet inventore vero placeat dicta earum provident libero quod architecto expedita molestias nulla, quia ab fugit excepturi vel.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="card-link">Link do Card</a>
+                        <a href="#" class="card-link">Link do Card</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 offset-4 my-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="h3">Botão de Recolhimento Básico</h3>
+                    </div>
+                    <div class="card-body">
+                        <button class="btn btn-primary" data-toggle="collapse" data-target="#exemplo1">Recolhimento Básico</button>
+                    </div>
+                    <div class="card-footer">
+                        <div id="exemplo1" class="collapse">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam veniam corporis tenetur. Recusandae maiores fugit quos debitis tempora in qui distinctio earum minus! Ducimus suscipit, mollitia excepturi fugit expedita tempore.
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-3 bg-dark">
+                    <div class="card-header">
+                        <h3 class="h3 text-light">Botão de Recolhimento Básico 2</h3>
+                    </div>
+                    <div class="card-body">
+                        <button class="btn btn-danger" data-toggle="collapse" data-target="#exemplo2">Recolhimento Básico 2</button>
+                    </div>
+                    <div class="card-footer">
+                        <div id="exemplo2" class="collapse text-light">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente officia at ut illum assumenda veritatis sed optio voluptas vero dolorum nesciunt quo omnis, unde laudantium harum praesentium. Architecto, placeat consequatur?.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 my-3">
+                <h3 class="h3 text-center mb-3">Formulário Empilhado</h3>
+                <form action="#"">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Digite seu email" class="form-control" aria-describedby="emailAjuda">
+                        <small id="emailAjuda" class="form-text text-muted">Nunca compartilharemos seu email com ninguém.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for=passwordl">Senha:</label>
+                        <input type="password" id="password" placeholder="Digite sua senha" class="form-control">
+                    </div>
+                    <div class="form-group form-check">
+                        <label for="" class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="rebember">Me lembre
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="col-md-8 my-3">
+                <h3 class="h3 text-center mb-5">Formulário Inline</h3>
+                <form action="#" class="form-inline">
+                    <label for="email2" class="mb-2 mr-2">Email:</label>
+                    <input type="text" class="form-control mb-2 mr-3" id="email2" placeholder="Insira seu email">
+                    
+                    <label for="password2" class="mb-2 mr-sm-2 mr-2">Senha:</label>
+                    <input type="text" class="form-control mb-2 mr-3" id="password2" placeholder="Insira sua senha">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
             </div>
         </div>
     </div>
@@ -84,6 +175,11 @@
             </div>
         </div>
     </div>
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <div class="container p-4">
+            <p class="text-center">O Footer</p>
+        </div>
+    </footer>
     
     <!-- JQuery e Bootstrap (incluindo Popper)-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
