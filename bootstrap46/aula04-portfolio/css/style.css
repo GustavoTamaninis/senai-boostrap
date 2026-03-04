@@ -1,0 +1,17 @@
+.bg-secondary{
+    background-color: rgb(41, 41, 41) !important;
+}
+
+.bg-dark{
+    background-color: rgb(32, 32, 32) !important;
+}
+
+.bg-dark-suave{
+    background-color: rgb(35, 35, 34) !important;
+}
+
+.background{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
