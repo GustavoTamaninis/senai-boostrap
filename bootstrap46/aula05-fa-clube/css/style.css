@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.bg-primary{
+    background-color: rgba(60, 122, 196);
+}
+
+.bg-secondary{
+    background-color: rgb(106, 128, 143) !important;
+}
+
+.bg-header{
+    background-image: url(../img/bg_header.webp);
+    background-size: cover;
+}
