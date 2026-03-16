@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="row m-0 p-0 d-flex flex-column min-vh-100">
-    <nav class="col-md-3 navbar navbar-expand-md navbar-light bg-light text-center">
+    <nav class="col-md-3 navbar navbar-expand-md navbar-light text-center">
         <a class="navbar-brand" href="#"><h1>Biblioteca</h1></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -17,31 +17,36 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav d-flex flex-column">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-house" style="color: rgb(0, 0, 0);"></i> Início <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-book-bookmark" style="color: rgb(0, 0, 0);"></i> Acervo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-scroll" style="color: rgb(0, 0, 0);"></i> Empréstimos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa-solid fa-graduation-cap" style="color: rgb(0, 0, 0);"></i> Alunos</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="content col-md-9 flex-fill">
         <div class="row">
-            <header class="col-md-12 text-right d-flex flex-row justify-content-end">
-                <p class="p-3">Modo Noturno</p>
-                <p class="p-3">Usuário</p>
+            <header class="col-md-12 text-right d-flex flex-row justify-content-end shadow-sm">
+                <a href="#" class="py-3 px-2"><i class="icone fa-regular fa-moon mt-2 mr-2" style="color: rgb(0, 0, 0);"></i></a>
+                <a href="#" class="py-3 px-2"><i class="icone fa-solid fa-circle-user mt-2" style="color: rgb(0, 0, 0);"></i></a>
             </header>
-            <main class="col-md-12">
+            <main class="col-md-12 mt-5 mb-4">
                 <section class="d-flex flex-column align-items-center justify-content-center mx-5 p-0">
-                    <h2>Consulta ao Acervo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias sit blanditiis aliquid enim minima sed quibusdam reprehenderit quod, distinctio dicta recusandae dolor debitis. Cupiditate aut vitae asperiores, at ab nulla.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quos culpa hic nobis, illum eligendi assumenda sunt alias aut aliquid? Minus magnam sint suscipit eveniet, dolorum natus ullam corrupti rerum.
-                    Labore corrupti soluta maxime facere autem quis amet quisquam placeat magni, ullam veritatis deserunt neque reiciendis ratione! Ipsa esse eius, quaerat necessitatibus placeat et beatae cumque illum adipisci quos doloribus.
-                    Illo ipsam quia vitae quasi, beatae nam quibusdam aspernatur, veritatis fugit in porro velit sint natus fugiat. Quidem eos unde, eligendi et eum sunt iste facilis, ipsum fuga, deleniti qui?</p>
+                    <h2 class="titulo-pesquisa font-weight-bold">Consulta ao Acervo</h2>
+                    <p class="mb-4">Procure por título, autor, gênero ou assunto</p>
+                    <input type="text" class="form-control" id="pesquisa" placeholder="Pesquise...">
                 </section>
+            </main>
+            <main class="col-md-12 mb-5 text-center">
+                <button type="button" class="mx-2 btn btn-outline-dark">Filtrar por</button>
+                <button type="submit" class="mx-2 btn btn-dark">Pesquisar</button>
             </main>
         </div>
     </div>
