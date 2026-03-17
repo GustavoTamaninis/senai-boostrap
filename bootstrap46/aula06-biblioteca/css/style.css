@@ -17,11 +17,11 @@ html, body{
     margin-bottom: 7px;
 }
 .nav-link{
-    width: 190px;
+    width: 470px;
     border-radius: 6px;
-    padding: 6px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .nav-link:hover{
     background-color: rgba(132, 138, 95);
@@ -52,6 +52,7 @@ footer{
         font-size: 1.2em;
     }
     .nav-link{
+        width: 190px;
         padding: 8px;
         margin-top: 8px;
         margin-bottom: 8px;
@@ -62,6 +63,12 @@ footer{
     }
     .titulo-pesquisa{
         font-size: 3em;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .nav-link{
+        width: 247px;
     }
 }
 
