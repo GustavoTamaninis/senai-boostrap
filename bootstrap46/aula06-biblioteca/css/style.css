@@ -13,9 +13,11 @@ html, body{
     justify-content: flex-start;
     z-index: 1000;
 }
+
 .navbar-toggler{
     margin-bottom: 7px;
 }
+
 .nav-link{
     width: 470px;
     border-radius: 6px;
@@ -23,6 +25,7 @@ html, body{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
 .nav-link:hover{
     background-color: rgba(132, 138, 95);
 }
